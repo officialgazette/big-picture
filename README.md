@@ -1,2 +1,2 @@
-# big-picture
-This repository is intended to give an overview of all available open source artifacts 
+# Big Picture
+This Page provides an overview of all available open source artifacts and how they play together
