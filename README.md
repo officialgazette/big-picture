@@ -3,16 +3,26 @@ This Page provides an overview of all available open source artifacts and how th
 
 ```mermaid
 block-beta
-columns 16
-a ["Create"]:2 space 1
-b ["Publish"]:2 space 1
-c ["Identify and authorize"]:2 space 1
-d ["Customer/Partner Support"]:2 space 1
-e ["Store and Archive"]:2 space 1
-f ["Search and Find"]:2 space 1
-g ["Configure"]:2 space 1
-h ["Accounting"]:2 space 1
-i ["Operate"]:2 space 1
-k ["Standards"]:2 space 1
+columns 5
+
+block:core["Core"]:5
+x space
+x space
+x
+a ["Create"] space
+b ["Publish"] space
+c ["Identify and authorize"]
+end
+space:5
+d ["Customer/Partner Support"]
+e ["Store and Archive"]:2 space
+f ["Search and Find"]
+space:5
+g ["Configure"]
+h ["Accounting"]
+i ["Operate"]
+space:5
+k ["Standards"]
+
  style k fill:#696;
 ```
