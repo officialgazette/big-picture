@@ -6,9 +6,7 @@ block-beta
 columns 5
 
 block:core["Core"]:5
-x space
-x space
-x
+x ["x"]:5
 a ["Create"] space
 b ["Publish"] space
 c ["Identify and authorize"]
