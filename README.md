@@ -12,7 +12,7 @@ and authorize"]
 search ["Search
 and Find"]
 end
-space:3
+space
 block:support["Support"]
 columns 3
 config ["Configure"]
@@ -21,12 +21,12 @@ Partner Support"]
 archive ["Store
 and Archive"]
 end
-space:3
+space
 block:generic["Generic"]
 columns 3
 accounting ["Accounting"]
 operate ["Operate"]
 standards ["Standards"]
 end
- style standards fill:#696;
+style standards fill:#696;
 ```
