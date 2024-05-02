@@ -3,6 +3,7 @@ This Page provides an overview of all available open source artifacts and how th
 
 ```mermaid
 block-beta
+columns 1
 block:core["Core"]
 create ["Create"]
 publish ["Publish"]
