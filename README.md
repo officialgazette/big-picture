@@ -3,30 +3,31 @@ This Page provides an overview of all available open source artifacts and how th
 
 ```mermaid
 block-beta
-columns 1
-block:core["Core"]
 columns 3
+block:core["Core"]
+columns 1 
 create ["Create"]
-publish ["Publish"]
+publish ["Publish"] space
 identify ["Identify
 and authorize"]
 search ["Search
 and Find"]
 end
-space
 block:support["Support"]
-columns 3
+columns 1
 config ["Configure"]
-customer ["Customer/
-Partner Support"]
+space:2
 archive ["Store
 and Archive"]
 end
 block:generic["Generic"]
-columns 3
+columns 1
+customer ["Customer/
+Partner Support"]
+space:2
 accounting ["Accounting"]
 operate ["Operate"]
-standards ["Standards"]
 end
+standards ["Standards"]:3
 style standards fill:#696;
 ```
