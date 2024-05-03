@@ -3,6 +3,7 @@ This Page provides an overview of all available open source artifacts and how th
 
 ```mermaid
 block-beta
+columns 3
 block:core["Core"]
 columns 1
 block:shared["Shared Kernel"]
