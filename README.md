@@ -5,6 +5,7 @@ This Page provides an overview of all available open source artifacts and how th
 block-beta
 columns 1
 block:core["Core"]
+columns 3
 create ["Create"]
 publish ["Publish"]
 identify ["Identify
@@ -21,7 +22,6 @@ Partner Support"]
 archive ["Store
 and Archive"]
 end
-space
 block:generic["Generic"]
 columns 3
 accounting ["Accounting"]
