@@ -3,11 +3,14 @@ This Page provides an overview of all available open source artifacts and how th
 
 ```mermaid
 block-beta
-columns 3
 block:core["Core"]
-columns 1 
+columns 1
+block:shared["Shared Kernel"]
+columns 1
 create ["Create"]
+space
 publish ["Publish"] space
+end
 identify ["Identify
 and authorize"]
 search ["Search
@@ -29,5 +32,6 @@ accounting ["Accounting"]
 operate ["Operate"]
 end
 standards ["Standards"]:3
+accounting--"x"-->core
 style standards fill:#696;
 ```
