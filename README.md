@@ -10,8 +10,9 @@ block:shared["Shared Kernel"]
 columns 1
 create ["Create"]
 space
-publish ["Publish"] space
+publish ["Publish"] 
 end
+space
 identify ["Identify
 and authorize"]
 search ["Search
@@ -32,7 +33,8 @@ space:2
 accounting ["Accounting"]
 operate ["Operate"]
 end
-standards ["Standards"]:3
+%% columns auto (default)
+standards 
 accounting--"x"-->core
 style standards fill:#696;
 ```
