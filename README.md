@@ -3,38 +3,50 @@ This Page provides an overview of all available open source artifacts and how th
 
 ```mermaid
 block-beta
-columns 3
+
+columns 1
+
 block:core["Core"]
-columns 1
+
 block:shared["Shared Kernel"]
-columns 1
 create ["Create"]
-space
-publish ["Publish"] 
+
+publish ["Publish"]
+
 end
-space
+
 identify ["Identify
 and authorize"]
+
 search ["Search
 and Find"]
+
 end
+
 block:support["Support"]
-columns 1
+
 config ["Configure"]
-space:2
+
 archive ["Store
 and Archive"]
+
 end
+
 block:generic["Generic"]
-columns 1
+
 customer ["Customer/
 Partner Support"]
-space:2
+
 accounting ["Accounting"]
+
 operate ["Operate"]
+
 end
-%% columns auto (default)
-standards 
-accounting--"x"-->core
+
+standards["Standards"]
+
+accounting --> core
 style standards fill:#696;
 ```
+
+The individual (sub)domains and their entities are described in more detail below
