@@ -6,40 +6,41 @@ block-beta
 
 columns 1
 
-block:core["Core"]
+block:core(("Core"))
 
-block:shared["Shared Kernel"]
-create ["Create"]
+block:shared(("Shared Kernel"))
 
-publish ["Publish"]
+create (("Create"))
 
-end
-
-identify ["Identify
-and authorize"]
-
-search ["Search
-and Find"]
+publish (("Publish"))
 
 end
 
-block:support["Support"]
+identify (("Identify
+and authorize"))
 
-config ["Configure"]
-
-archive ["Store
-and Archive"]
+search (("Search
+and Find"))
 
 end
 
-block:generic["Generic"]
+block:support(("Support"))
 
-customer ["Customer/
-Partner Support"]
+config (("Configure"))
 
-accounting ["Accounting"]
+archive (("Store
+and Archive"))
 
-operate ["Operate"]
+end
+
+block:generic(("Generic"))
+
+customer (("Customer/
+Partner Support"))
+
+accounting (("Accounting"))
+
+operate (("Operate"))
 
 end
 
