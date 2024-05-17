@@ -6,7 +6,7 @@ block-beta
 
 columns 1
 
-block:core(("Core"))
+block:core("Core")
 
 block:shared(("Shared Kernel"))
 
@@ -50,4 +50,4 @@ accounting --> core
 style standards fill:#696;
 ```
 
-The individual (sub)domains and their entities are described in more detail below
+The individual (sub)domains and their entities are described in the following sections.
