@@ -132,7 +132,7 @@ style system fill:#fff,stroke:#000,stroke-width:1px,color:#000
 
 ## Standards
 
-[Publication standard](https://pages.github.com/).
+[Publication standard](https://github.com/officialgazette/publication-standard).
 
 ## The form configuration
 
