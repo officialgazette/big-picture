@@ -57,7 +57,7 @@ style standards fill:#696;
 
 The individual (sub)domains and their entities are described in the following sections. 
 
-## The core domain
+## The core domains
 
 The most important functionality of the current and future system is the ability to create and publish an official publication. The publishing entity must be provided with the necessary tools to do this: A publication can be entered either manually using a form (GUI) or via API. As a consequence, "Create" and "Publish" can be considered as core functionalities. 
 
@@ -126,13 +126,56 @@ style system fill:#fff,stroke:#000,stroke-width:1px,color:#000
 ```
 
 
-## The support domain
+## The support domains
+### The configure domain
+The configuration domain is closely linked to the standards. Ultimately, all configurations should be highly standardised in order to ensure the largest possible interoperability of the entire system.
 
-## The generic domain
+## The generic domains
 
 ## Standards
 
 [Publication standard](https://github.com/officialgazette/publication-standard).
+### Scope of the standardisation
+```mermaid
+
+%%{
+  init: {
+    'theme': 'neutral'
+  }
+}%%
+
+block-beta
+
+block:scope["Scope"]
+
+columns 5
+Meta:2 space Terms["Terminology
+glossary"]:2 space:5 Content:2
+space:7
+
+end
+
+
+
+Terms --> Content
+```
+
+### The terminology glossary
+All terms used in a specific publication are stored in a neutral terminology glossary. This can currently be accessed in JSON format at the following URL: https://amtsblattportal.ch/terms 
+A term object ("term") contains various information and is structured as follows:
+
+{
+"key" : "constructionProject",
+"type" : "businessCase",
+"valueType" : "text",
+"term" : {
+  "de" : "Planning application",
+  "fr" : "Demande d'autorisation de construire"
+  }
+}
+
+key: Contains the key of the term. This uniquely identifies the term, even if the term is renamed on a client-specific basis (for example, a "building application" may be called a "building project", depending on the publication organ).
+
 
 ## The form configuration
 
