@@ -210,7 +210,9 @@ Describes the possible reactions to a publication
 
 ### The content structure
 
-The following figure shows the structure of a publication:
+The following figure shows the  content structure of a publication:
+
+
 
 image::publication_schema_overview.png[publication schema overview, 700px]
 
