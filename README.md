@@ -129,6 +129,7 @@ style system fill:#fff,stroke:#000,stroke-width:1px,color:#000
 ## The support domains
 ### The configure domain
 The configuration domain is closely linked to the standards. Ultimately, all configurations should be highly standardised in order to ensure the largest possible interoperability of the entire system.
+[The source code for the publication configuration server can be found here](https://github.com/officialgazette/publication-configurator-server)
 
 ## The generic domains
 
