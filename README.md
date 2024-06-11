@@ -192,7 +192,7 @@ tempStore["<a href='https://github.com/officialgazette/publication-archive'>Temp
 file store</a>"]
 space
 
-Config["<a href='https://github.com/officialgazette/publication-configurator'>Configuration Tools</a>"]:2
+Config["<a href='https://github.com/officialgazette/publication-configurator'>Publication Type Configurator</a>"]:2
 
 
 Config--"can
