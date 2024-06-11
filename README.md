@@ -5,9 +5,9 @@ This Page provides an overview of all existing artifacts from different perspect
 > [!NOTE]
 > The following overview describes in particular the existing artifacts themselves, to the extent that they are relevant to the future solution. On the other hand, it also describes aspects of the future solution on a less technical level.
 >
-> The individual components cannot run independently
+> Please note: The individual components can only be limited runned independently.
 
-## domain driven design perspective
+## A domain driven design perspective
 In the sense of a **strategic domain driven design** approach (DDD), the official gazette ecosystem consists of several domains, whereby the primary goal of the core domain is the publication of legally binding announcements.
 
 
@@ -59,7 +59,7 @@ style standards fill:#696;
 
 The individual (sub)domains and their entities are described in the following sections. 
 
-## The core domains
+### The core domain
 
 The most important functionality of the current and future system is the ability to create and publish an official publication. The publishing entity must be provided with the necessary tools to do this: A publication can be entered either manually using a form (GUI) or via API. As a consequence, "Create" and "Publish" can be considered as core functionalities. 
 
@@ -128,13 +128,14 @@ style system fill:#fff,stroke:#000,stroke-width:1px,color:#000
 ```
 
 
-## The support domains
-### The configure domain
+### The support domain
+#### Configure subdomain
 The configuration domain is closely linked to the standards. Ultimately, all configurations should be highly standardised in order to ensure the largest possible interoperability of the entire system.
 [The source code for the publication configuration server can be found here](https://github.com/officialgazette/publication-configurator-server)
 
-## The generic domains
+### The generic domain
 
-## Requirements for future standardisation
+## The available Artifacts
+Various open source artifacts are available in the present repositories. The following illustration shows how these are connected in functional and technical aspects. 
 
 [Publication standard](https://github.com/officialgazette/publication-standard).
