@@ -182,7 +182,8 @@ columns 4
 space
   core["Core System"] space
 block:scope:2
-configServer["<a href='https://github.com/officialgazette/publication-configurator-server'>Configuration Server</a>"]
+configServer["<a href='https://github.com/officialgazette/publication-configurator-server'>Publication
+Configuration Server</a>"]
 termsConfig["<a href='https://github.com/officialgazette/publication-standard'>Configuration Files</a>"]
 end
 space:3
