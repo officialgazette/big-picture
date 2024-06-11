@@ -146,10 +146,10 @@ style system stroke:grey,stroke-width:2px,color:#fff,stroke-dasharray: 5 5
 ### The support domain
 
 **Configure subdomain:** The configuration domain is closely linked to the standards. Ultimately, all configurations should be highly standardised in order to ensure the largest possible interoperability of the entire system.
-[The source code for the publication configuration server can be found here](https://github.com/officialgazette/publication-configurator-server)
+The source code for the publication configuration server can be found [here](https://github.com/officialgazette/publication-configurator-server)
 
 **Store and Archive:** Publications that have reached their expiration date should no longer be stored in the core system. These should either be trasferred to an archive of the tenant (e.g. cantonal or federal archive) or in a temporary file store. Nevertheless, certain publications still have to be found using the search function, depending on their access permissions.
-[The source code for the current temporary file store (referred as "the archive") can be found here](https://github.com/officialgazette/publication-archive)
+The source code of the current temporary file store (referred as "the archive") can be found [here](https://github.com/officialgazette/publication-archive)
 
 ### The generic domain
 The artifacts of the generic domain are not discussed in detail here, as neither open source components nor significant technical implementations are to be documented. One exception is the API for the SAP connection. Further information can be found under https://www.re-launch.ch/sap-integration.
@@ -158,9 +158,11 @@ The artifacts of the generic domain are not discussed in detail here, as neither
 The standard affects most of the domains described, it can be regarded as the glue between most of the subdomains described. In particular, the following aspects are covered
 * A general scheme describes the basic structure of a publication
 * The terms catalog describes all possible terms of a publication
-* The publication type configuration describes the tenant-specific characteristics of a publication type
+* The publication type configuration describes the tenant-specific characteristics of a publication type.
 
-## Which artifacts are available in the present repositories?
+All available resources regarding standardization can be found in [this repository](https://github.com/officialgazette/publication-standard).
+
+## Available artifacts and how they all play together
 Various open source artifacts are available in the present repositories. The following illustration shows how these are connected in functional and technical aspects. 
 
-[Publication standard](https://github.com/officialgazette/publication-standard).
+
