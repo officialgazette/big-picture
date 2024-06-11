@@ -2,6 +2,9 @@
 
 ## Purpose of this page
 This Page provides an overview of all existing artifacts from different perspectives. The purose is to provide a better understanding how these existing (open source) artifacts play together. 
+> [!IMPORTANT]
+> As part of the public tender “Relaunch Amtsblattportal” the existing concepts and artifacts should be challenged and revised. These have grown over time and will certainly have to be redesigned as part of the project.
+
 > [!NOTE]
 > The following overview describes in particular the existing artifacts themselves, to the extent that they may be relevant to the future solution. The individual components can only be limited runned independently. The operator of the official gazette portal cannot provide any assistance with the interpretation of the source code or its installation.
 
@@ -50,7 +53,7 @@ operate (("Operate"))
 
 end
 
-standards["Standards"]
+standards["Standard"]
 
 style standards fill:#696;
 
