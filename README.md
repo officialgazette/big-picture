@@ -144,9 +144,12 @@ style system stroke:grey,stroke-width:2px,color:#fff,stroke-dasharray: 5 5
 
 
 ### The support domain
-#### Configure subdomain
-The configuration domain is closely linked to the standards. Ultimately, all configurations should be highly standardised in order to ensure the largest possible interoperability of the entire system.
+
+**Configure subdomain:** The configuration domain is closely linked to the standards. Ultimately, all configurations should be highly standardised in order to ensure the largest possible interoperability of the entire system.
 [The source code for the publication configuration server can be found here](https://github.com/officialgazette/publication-configurator-server)
+
+**Store and Archive:** Publications that have reached their expiration date should no longer be stored in the core system. These should either be trasferred to an archive of the tenant (e.g. cantonal or federal archive) or in a temporary file store. Nevertheless, certain publications still have to be found using the search function, depending on their access permissions.
+[The source code for the current temporary file store (referred as "the archive") can be found here](https://github.com/officialgazette/archive)
 
 ### The generic domain
 The artifacts of the generic domain are not discussed in detail here, as neither open source components nor significant technical implementations are to be documented. One exception is the API for the SAP connection. Further information can be found under https://www.re-launch.ch/sap-integration.
