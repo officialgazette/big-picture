@@ -107,10 +107,16 @@ block-beta
 block:system["Official
 Gazette
 Portal"]
+columns 3
 
-create (("Create")) space:2
+create (("Create")) space
 
 publish (("Publish"))
+
+space:2
+searchInt(("Search
+and
+Find"))
 
 end
 
@@ -123,6 +129,9 @@ end
 
 search --"API
 request"--> publish
+publish-->search
+
+
 style thirdparty fill:#fff,stroke:#aaa,stroke-width:1px,stroke-dasharray: 5 5,color:#aaa
 style system fill:#fff,stroke:#000,stroke-width:1px,color:#000
 ```
