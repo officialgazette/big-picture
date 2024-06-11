@@ -88,7 +88,8 @@ and Find"))
 end
 ```
 As these two are stongly linked, they can be considered using a "shared kernel" in the sense of DDD. The "Identify and authorise" domain is part of the core domain because it is essential for the publication to have the corresponding authorisations. As an IAM implementation is intended in the future system, user identification should technically no longer be part of the core system.
- "Search and Find" comprises all the functionalities required to find a publication and thus ultimately serves to fulfil the official mandate. It should be noted that a publication does not necessarily have to be initially found on the official gazette portal - it may well be that a publication is searched in a third-party system but is eventually displayed on the official gazette portal (s. fig. below).
+
+"Search and Find" comprises all the functionalities required to find a publication and thus ultimately serves to fulfil the official mandate. It should be noted that a publication does not necessarily have to be initially found on the official gazette portal - it may well be that a publication is searched in a third-party system but is eventually displayed on the official gazette portal (s. fig. below, one or many publications can be found and displayed via REST API).
 ```mermaid
 
 %%{
@@ -135,8 +136,10 @@ request"--> publish
 publish-->search
 
 
-style thirdparty fill:#fff,stroke:#aaa,stroke-width:1px,stroke-dasharray: 5 5,color:#aaa
-style system fill:#fff,stroke:#000,stroke-width:1px,color:#000
+
+
+style thirdparty stroke:#f66,stroke-width:2px,color:#fff,stroke-dasharray: 5 5
+style system stroke:grey,stroke-width:2px,color:#fff,stroke-dasharray: 5 5
 ```
 
 
@@ -146,12 +149,15 @@ The configuration domain is closely linked to the standards. Ultimately, all con
 [The source code for the publication configuration server can be found here](https://github.com/officialgazette/publication-configurator-server)
 
 ### The generic domain
-The artifacts of the generic domain are not discussed in detail here, as neither open source components nor significant technical implementations are to be documented. One exception is the API for the SAP connection. Further information on this can be found at XXXX
+The artifacts of the generic domain are not discussed in detail here, as neither open source components nor significant technical implementations are to be documented. One exception is the API for the SAP connection. Further information can be found under https://www.re-launch.ch/sap-integration.
 
-### The Standards
-The “standards” affects most of the domains described; it can be regarded as the glue between all the subdomains described.
+### The Standard
+The standard affects most of the domains described, it can be regarded as the glue between most of the subdomains described. In particular, the following aspects are covered
+* A general scheme describes the basic structure of a publication
+* The terms catalog describes all possible terms of a publication
+* The publication type configuration describes the tenant-specific characteristics of a publication type
 
-## The available Artifacts
+## Which artifacts are available in the present repositories?
 Various open source artifacts are available in the present repositories. The following illustration shows how these are connected in functional and technical aspects. 
 
 [Publication standard](https://github.com/officialgazette/publication-standard).
