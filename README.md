@@ -55,6 +55,8 @@ end
 standards["Standards"]
 
 style standards fill:#696;
+
+
 ```
 
 The individual (sub)domains and their entities are described in the following sections. 
@@ -113,7 +115,7 @@ create (("Create")) space
 
 publish (("Publish"))
 
-space:2
+space:5
 searchInt(("Search
 and
 Find"))
@@ -121,10 +123,11 @@ Find"))
 end
 
 block:thirdparty["3rd-party system"]:1
-columns 3 space:4
+columns 3
+space
 search (("Search
 and Find"))
-
+space:7
 end
 
 search --"API
@@ -143,6 +146,10 @@ The configuration domain is closely linked to the standards. Ultimately, all con
 [The source code for the publication configuration server can be found here](https://github.com/officialgazette/publication-configurator-server)
 
 ### The generic domain
+The artifacts of the generic domain are not discussed in detail here, as neither open source components nor significant technical implementations are to be documented. One exception is the API for the SAP connection. Further information on this can be found at XXXX
+
+### The Standards
+The “standards” affects most of the domains described; it can be regarded as the glue between all the subdomains described.
 
 ## The available Artifacts
 Various open source artifacts are available in the present repositories. The following illustration shows how these are connected in functional and technical aspects. 
