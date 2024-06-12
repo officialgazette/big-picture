@@ -22,7 +22,7 @@ This Page provides an overview of all existing artifacts. The purose is to provi
 > 4. The temporary file store (also known as "the archive")
 
 
-## How the arifacts play together
+## How the existing arifacts play together
 Various open source artifacts are available in the present repositories. The following illustration shows how these are connected in functional and technical aspects. The links on the artifacts point to the respective repositories (if available).
 
 ```mermaid
