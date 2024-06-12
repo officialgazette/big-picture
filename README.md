@@ -72,11 +72,16 @@ style api stroke:red,stroke-width:2px,color:grey,stroke-dasharray: 5 5
 
 ${\color{red}----}$ **Note:** A description of the current API can be found at https://amtsblattportal.ch/docs/api. Information on the generic schema (referred as "Schema 2.0") can be found in the chapter [Publication Schema 2.0](https://amtsblattportal.ch/docs/api/#_publication_schema_2_0)
 
-### The Standard
-The "standard" may not actually be classified as a domain. However, it affects most of the domains described above and is therefore treated as a separate topic here. In particular, the following artifacts are covered
-* A general scheme describes the basic structure of a publication
-* The terms catalog describes all possible terms of a publication
-* The publication type configuration describes the tenant-specific characteristics of a publication type.
+
+## Why a standard?
+The growing number of official publications in the official gazette portal shows that the introduction of a standard that applies to all possible types of publications is unavoidable. A standardised exchange structure offers a number of advantages, such as:
+
+- Enabling a seamless exchange of publication in general
+- Ensuring that the publications remain readable and processable at a future time
+- The import and export of publications is simplified and each publication type can be processed in the same way
+- The schemes are easier to read once the basic principles have been understood
+- The new publication structure should follow universal semantics that apply to all publication types. Wherever possible, the schema structure should be based on existing eCH standards.
+- The standard should be stored as an eCH standard and thus have a binding character
 
 All available resources regarding standardization can be found in [this repository](https://github.com/officialgazette/publication-standard).
 
