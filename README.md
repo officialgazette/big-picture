@@ -9,7 +9,7 @@ This Page provides an overview of all existing artifacts. The purose is to provi
 > For a better understanding of the task, it can be proceeded as follows:
 > 1. Gain a rough understanding of the functional domains. The tender documents in particular should be consulted for this purpose.
 > 2. Gain an understanding of the technical context of the existing artifacts. Information on this (in addition to the tender documents) can also be found in this repository.
-> 3. Gain a deeper understanding of the existing elements, the current publication scheme and the terms catalog and how they play together.
+> 3. Gain a deeper understanding of the existing elements, the current publication scheme and the terms catalog and how they play together. Tips on how to do this can be found in the respective repositories (see "Tips")
 > 4. Submit optimization proposals or alternative approaches as part of the tender process. These should eventually result in the development of a future standard.
 
 > [!NOTE]
@@ -64,8 +64,6 @@ configServer--"delivers
 JSON"-->api
 
 
-
-l
 style scope stroke:grey,stroke-width:2px,color:#fff,stroke-dasharray: 5 5
 style api stroke:red,stroke-width:2px,color:grey,stroke-dasharray: 5 5
 ```
@@ -74,7 +72,13 @@ ${\color{red}----}$ **Note:** A description of the current API can be found at h
 
 
 ## Why a standard?
-The growing number of official publications in the official gazette portal shows that the introduction of a standard that applies to all possible types of publications is unavoidable. A standardised exchange structure offers a number of advantages, such as:
+The growing number of official publications in the official gazette portal shows that the introduction of a standard that applies to all possible types of publications is unavoidable. Today, official gazettes are already structured using a uniform publication type catalog with standardized publication elements. Based on a predefined catalog, the tenant can choose which publication types with which elements he wants to use for his official gazette.
+
+![Screenshot Official_Gazettes](https://amtsblattportal.ch/static/media/official_gazettes_standard.png)
+
+The figure above shows that the federal characteristics are nevertheless taken into account (and will continue to be taken into account in the future): For example, a construction approval may be called “Baugesuch” in one canton and “Bauprojekt” in another, even if the essence of the publication is the same.
+
+A standardised exchange structure offers a number of advantages, such as:
 
 - Enabling a seamless exchange of publication in general
 - Ensuring that the publications remain readable and processable at a future time
