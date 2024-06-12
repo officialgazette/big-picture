@@ -1,19 +1,21 @@
 # Big Picture
 
 ## Purpose of this page
-This Page provides an overview of all existing artifacts from different perspectives. The purose is to provide a better understanding how these existing (open source) artifacts play together. 
+This Page provides an overview of all existing artifacts. The purose is to provide a better understanding how these existing (open source) artifacts play together, in particular with regard to the establishment of a future standard for the exchange of publication data.
+
 > [!IMPORTANT]
 > As part of the public tender “Relaunch Amtsblattportal” the existing concepts and artifacts should be challenged and revised. These have grown over time and will certainly have to be redesigned as part of the project. In particular, a rough concept for a future standard must be submitted.
 >
 > For a better understanding of the task, it can be proceeded as follows:
-1. gain a rough understanding of the functional domains. The tender documents in particular should be consulted for this purpose.
-2. Gain an understanding of the technical context of the existing artifacts. Information on this (in addition to the tender documents) can also be found in this repository.
-3. Gain a deeper understanding of the existing elements, the current publication scheme and the terms catalog and how they play together.
-4. Submit optimization proposals or alternative approaches as part of the tender process. These should eventually result in the development of a future standard.
+> 1. Gain a rough understanding of the functional domains. The tender documents in particular should be consulted for this purpose.
+> 2. Gain an understanding of the technical context of the existing artifacts. Information on this (in addition to the tender documents) can also be found in this repository.
+> 3. Gain a deeper understanding of the existing elements, the current publication scheme and the terms catalog and how they play together.
+> 4. Submit optimization proposals or alternative approaches as part of the tender process. These should eventually result in the development of a future standard.
 
 > [!NOTE]
-> The following overview describes in particular the existing artifacts themselves, to the extent that they may be relevant to the future solution. The individual components can only be limited runned independently. The operator of the official gazette portal cannot provide any assistance with the interpretation of the source code or its installation.
-> The following repositories are provided
+> The following overview describes the existing artifacts themselves, to the extent that they may be relevant to the future solution and standardisation. The individual components cannot run autonomous in every case. The operator of the official gazette portal will not provide any assistance with the interpretation of the source code or its installation.
+> 
+> The following repositories are provided:
 > 1. The publication configuration server
 > 2. The publication configurator configurator
 > 3. The publication standard
