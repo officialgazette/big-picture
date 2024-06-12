@@ -19,7 +19,7 @@ This Page provides an overview of all existing artifacts. The purose is to provi
 > 1. The publication configuration server
 > 2. The publication configurator configurator
 > 3. The publication standard
-> 4. The temporary file store (known as "the archive")
+> 4. The temporary file store (also known as "the archive")
 
 
 ## How the arifacts play together
