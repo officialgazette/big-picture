@@ -38,7 +38,7 @@ block-beta
 columns 4
 
 space
-  core["Core System"] space
+  core["Base system"] space
 block:scope:2
 configServer["<a href='https://github.com/officialgazette/publication-configurator-server'>Publication
 configurator server</a>"]
@@ -72,7 +72,7 @@ style api stroke:red,stroke-width:2px,color:grey,stroke-dasharray: 5 5
 ${\color{red}----}$ **Note:** A description of the current API can be found at https://amtsblattportal.ch/docs/api. Information on the generic schema (referred as "Schema 2.0") can be found in the chapter [Publication Schema 2.0](https://amtsblattportal.ch/docs/api/#_publication_schema_2_0)
 
 ### What do these artifacts do?
-1. **The core system:** The core system handles all matters relating to the publication of publications, including the creation via forms or API, the depiction of the publications and their sealing, all search and subscription functions, etc. Note: The sources of the core system can not be made available here. 
+1. **The base system:** The base system handles all matters (at runtime) relating to the publication of publications, including the creation of a publication via forms or API, the depiction of the publications and their sealing, all search and subscription functions, etc. Note: The sources of the base system can not be made available here. 
 2. **The publication configurator server:** The publication configuration server delivers the specific configurations per publication type. 
 3. **The publication configurator:** The publication configurator is used for the basic configuration of the term catalog and client-specific configurations using a GUI. This tool has no direct technical connection to the publication configuration server, the exchange of the configs takes place via JSON files (s. "configuration files" below).
 4. **The configuration files:** The configuration files are primarily used as an exchange format between the publication configuration server and the publication configurator. There is a file for the terms catalog and a file for the tenant-specific publication type configuration.
