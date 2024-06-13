@@ -83,7 +83,7 @@ The growing number of official publications in the official gazette portal shows
 
 ![Screenshot Official_Gazettes](https://amtsblattportal.ch/static/media/official_gazettes_standard.png)
 
-The figure above shows that the federal characteristics are nevertheless taken into account (and will continue to be taken into account in the future): For example, a construction approval may be called “Baugesuch” in one canton and “Bauprojekt” in another, even if the essence of the publication is the same.
+The figure above shows that the federal characteristics are nevertheless taken into account (and will continue to be taken into account in the future): For example, a construction approval may be called “Building application” in one canton and “Building project” in another, even if the essence of the publication is the same.
 
 A standardised exchange structure offers a number of advantages, such as:
 
