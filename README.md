@@ -41,7 +41,7 @@ space
   core["Base system"] space
 block:scope:2
 configServer["<a href='https://github.com/officialgazette/publication-configurator-server'>Publication
-configurator server</a>"]
+configuraton server</a>"]
 termsConfig["<a href='https://github.com/officialgazette/publication-standard'>Configuration files</a>"]
 end
 space:3
@@ -51,7 +51,7 @@ tempStore["<a href='https://github.com/officialgazette/temp-publication-store'>T
 publication store</a>"]
 space
 
-Config["<a href='https://github.com/officialgazette/publication-configurator'>Publication Type Configurator</a>"]:2
+Config["<a href='https://github.com/officialgazette/publication-configurator'>Publication configurator</a>"]:2
 
 
 Config--"can
@@ -73,7 +73,7 @@ ${\color{red}----}$ **Note:** A description of the current API can be found at h
 
 ### What do these artifacts do?
 1. **The base system:** The base system handles all matters (at runtime) relating to the publication of publications, including the creation of a publication via forms or API, the depiction of the publications and their sealing, all search and subscription functions, etc. Note: The sources of the base system can not be made available here. 
-2. **The publication configurator server:** The publication configuration server delivers the specific configurations per publication type. 
+2. **The publication configuraton server:** The publication configuration server delivers the specific configurations per publication type. 
 3. **The publication configurator:** The publication configurator is used for the basic configuration of the term catalog and client-specific configurations using a GUI. This tool has no direct technical connection to the publication configuration server, the exchange of the configs takes place via JSON files (s. "configuration files" below).
 4. **The configuration files:** The configuration files are primarily used as an exchange format between the publication configuration server and the publication configurator. There is a file for the terms catalog and a file for the tenant-specific publication type configuration.
 5. **The temporary file store:** The temporary file store (often somewhat misleading referred to as "the archive") ensures the persistence of publications beyond their expiration date. Long-term, legally binding archiving of publications should, however, take place in a long-term archive of the respective responsible tenant.
