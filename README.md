@@ -23,7 +23,7 @@ This Page provides an overview of all existing artifacts. The purpose is to give
 >
 > All other components of the existing solution are not available under an open source license or cannot be made available open source for other reasons. 
 
-## How the existing arifacts play together
+## Overview of the artifacts
 Various open source artifacts are available in the present repositories. The following illustration shows how these are connected in functional and technical aspects. The links on the artifacts point to the respective repositories (if available).
 
 ```mermaid
@@ -76,7 +76,7 @@ ${\color{red}----}$ **Note:** A description of the current API can be found at h
 2. **The publication configurator server:** The publication configuration server delivers the specific configurations per publication type. 
 3. **The publication configurator:** The publication configurator is used for the basic configuration of the term catalog and client-specific configurations using a GUI. This tool has no direct technical connection to the publication configuration server, the exchange of the configs takes place via JSON files (s. "configuration files" below).
 4. **The configuration files:** The configuration files are primarily used as an exchange format between the publication configuration server and the publication configurator. There is a file for the terms catalog and a file for the tenant-specific publication type configuration.
-5. The temporary file store
+5. **The temporary file store:** The temporary file store (often somewhat misleading referred to as "the archive") ensures the persistence of publications beyond their expiration date. Long-term, legally binding archiving of publications should, however, take place in a long-term archive of the respective responsible tenant.
 
 ## Why a standard?
 The growing number of official publications in the official gazette portal shows that the introduction of a standard that applies to all possible types of publications is unavoidable. Today, official gazettes are already structured using a uniform publication type catalog with standardized publication elements. Based on a predefined catalog, the tenant can choose which publication types with which elements he wants to use for his official gazette.
