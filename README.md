@@ -16,11 +16,12 @@ This Page provides an overview of all existing artifacts. The purpose is to give
 > The following overview describes the existing artifacts themselves, to the extent that they may be relevant to the future solution and standardisation. The individual components cannot run autonomous in every case. The operator of the official gazette portal will not provide any assistance with the interpretation of the source code or its installation.
 > 
 > The following repositories are provided:
-> 1. The publication configuration server
-> 2. The publication configurator configurator
-> 3. The publication standard
-> 4. The temporary file store (also known as "the archive")
-
+> 1. The publication configuration server, see [here](https://github.com/officialgazette/publication-configurator-server)
+> 2. The publication configurator, see [here](https://github.com/officialgazette/publication-configurator)
+> 3. The publication standard, see [here](https://github.com/officialgazette/publication-standard)
+> 4. The temporary file store (also known as "the archive"), see [here](https://github.com/officialgazette/publication-archive)
+>
+> All other components of the existing solution are not available under an open source license or cannot be made available open source for other reasons. 
 
 ## How the existing arifacts play together
 Various open source artifacts are available in the present repositories. The following illustration shows how these are connected in functional and technical aspects. The links on the artifacts point to the respective repositories (if available).
@@ -70,6 +71,12 @@ style api stroke:red,stroke-width:2px,color:grey,stroke-dasharray: 5 5
 
 ${\color{red}----}$ **Note:** A description of the current API can be found at https://amtsblattportal.ch/docs/api. Information on the generic schema (referred as "Schema 2.0") can be found in the chapter [Publication Schema 2.0](https://amtsblattportal.ch/docs/api/#_publication_schema_2_0)
 
+### What do these artifacts do?
+1. The core system: The core system handles all matters relating to the publication of publications, including the creation via forms or API, the depiction of the publications and their sealing, all search and subscription functions, etc. Note: The sources of the core system can not be made available here. 
+2. The publication configurator server
+3. The publication configurator
+4. The configuration files
+5. The temporary file store
 
 ## Why a standard?
 The growing number of official publications in the official gazette portal shows that the introduction of a standard that applies to all possible types of publications is unavoidable. Today, official gazettes are already structured using a uniform publication type catalog with standardized publication elements. Based on a predefined catalog, the tenant can choose which publication types with which elements he wants to use for his official gazette.
