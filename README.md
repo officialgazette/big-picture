@@ -88,11 +88,13 @@ The figure above shows that the federal characteristics are nevertheless taken i
 A standardised exchange structure offers a number of advantages, such as:
 
 - Enabling a seamless exchange of publication in general
+- Enabling a search for specific publication types and elements through various official gazettes
 - Ensuring that the publications remain readable and processable at a future time
 - The import and export of publications is simplified and each publication type can be processed in the same way
 - The schemes are easier to read once the basic principles have been understood
 - The new publication structure should follow universal semantics that apply to all publication types. Wherever possible, the schema structure should be based on existing eCH standards.
 - The standard should be stored as an eCH standard and thus have a binding character
+- It should be developer-friendly
 
 All available resources regarding standardization can be found in [this repository](https://github.com/officialgazette/publication-standard).
 
