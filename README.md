@@ -1,12 +1,12 @@
 # Big Picture
 
 ## Purpose of this page
-This Page provides an overview of all existing artifacts. The purose is to provide a better understanding how these existing (open source) artifacts play together, in particular with regard to the establishment of a future standard for the exchange of publication data.
+This Page provides an overview of all existing artifacts. The purpose is to give a better understanding on how these existing (open source) artifacts play together, in particular with regard to the establishment of a future standard for the exchange of publication data.
 
 > [!IMPORTANT]
 > As part of the public tender “Relaunch Amtsblattportal” the existing concepts and artifacts should be challenged and revised. These have grown over time and will certainly have to be redesigned as part of the project. In particular, a rough concept for a future standard must be submitted.
 >
-> For a better understanding of the task, it can be proceeded as follows:
+> For a better understanding of this task, it can be proceeded as follows:
 > 1. Gain a rough understanding of the functional domains. The tender documents in particular should be consulted for this purpose.
 > 2. Gain an understanding of the technical context of the existing artifacts. Information on this (in addition to the tender documents) can also be found in this repository.
 > 3. Gain a deeper understanding of the existing elements, the current publication scheme and the terms catalog and how they play together. Tips on how to do this can be found in the respective repositories (see "Tips")
