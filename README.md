@@ -19,7 +19,7 @@ This Page provides an overview of all existing artifacts. The purpose is to give
 > 1. The publication configuration server, see [here](https://github.com/officialgazette/publication-configurator-server)
 > 2. The publication configurator, see [here](https://github.com/officialgazette/publication-configurator)
 > 3. The publication standard, see [here](https://github.com/officialgazette/publication-standard)
-> 4. The temporary file store (also known as "the archive"), see [here](https://github.com/officialgazette/publication-archive)
+> 4. The temporary file store (also known as "the archive"), see [here](https://github.com/officialgazette/temp-publication-store)
 >
 > All other components of the existing solution are not available under an open source license or cannot be made available open source for other reasons. 
 
@@ -47,8 +47,8 @@ end
 space:3
 api(("<a href='https://amtsblattportal.ch/docs/api'>Public API</a>"))
 space:8
-tempStore["<a href='https://github.com/officialgazette/publication-archive'>Temporary
-file store</a>"]
+tempStore["<a href='https://github.com/officialgazette/temp-publication-store'>Temporary
+publication store</a>"]
 space
 
 Config["<a href='https://github.com/officialgazette/publication-configurator'>Publication Type Configurator</a>"]:2
