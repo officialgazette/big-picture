@@ -81,7 +81,7 @@ ${\color{red}----}$ **Note:** A description of the current API can be found at h
 ## Why a standard?
 The growing number of official publications in the official gazette portal shows that the introduction of a standard that applies to all possible types of publications is unavoidable. Today, official gazettes are already structured using a uniform publication type catalog with standardized publication elements. Based on a predefined catalog, the tenant can choose which publication types with which elements he wants to use for his official gazette.
 
-![Screenshot Official_Gazettes](https://amtsblattportal.ch/static/media/official_gazettes_standard_req.png)
+![Screenshot Official_Gazettes](https://amtsblattportal.ch/static/media/official_gazettes_standard_scale.png)
 
 The figure above shows that the federal characteristics are nevertheless taken into account (and will continue to be taken into account in the future): For example, a construction approval may be called “Building application” in one canton and “Building project” in another, even if the essence of the publication is the same.
 
